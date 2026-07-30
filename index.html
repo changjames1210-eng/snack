@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunny Snack Shack</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Sunny Snack Shack home">
+        <span class="brand-mark">SS</span>
+        <span>Sunny Snack Shack</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#menu">Menu</a>
+        <a href="#specials">Specials</a>
+        <a href="#visit">Visit</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="kicker">Fresh bites by the boardwalk</p>
+          <h1>Hot snacks, cold drinks, good-day energy.</h1>
+          <p>
+            Swing by for crispy fries, crunchy chips, loaded nachos, soft
+            pretzels, fruit cups, lemonades, and the kind of treats that make an
+            afternoon feel like a mini vacation.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#menu">See Menu</a>
+            <a class="secondary-link" href="#visit">Hours & Location</a>
+          </div>
+        </div>
+
+        <div class="hero-plate" aria-label="Illustration of snacks and drinks">
+          <div class="sun"></div>
+          <div class="drink">
+            <span class="straw"></span>
+            <span class="lid"></span>
+            <span class="cup"></span>
+          </div>
+          <div class="fries">
+            <span></span><span></span><span></span><span></span>
+            <div class="carton">FRIES</div>
+          </div>
+          <div class="pretzel">
+            <span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="chip-feature" aria-label="Featured chip snack">
+        <img
+          src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=1200&q=80"
+          alt="Close-up bowl of crispy potato chips"
+        />
+        <div>
+          <p class="kicker">Crunch pick</p>
+          <h2>Fresh kettle chips with bold flavor dust.</h2>
+          <p>
+            Choose spicy lime, smoky BBQ, or cool ranch. Every basket comes
+            crispy, salty, and ready for dipping.
+          </p>
+        </div>
+      </section>
+
+      <section class="section chip-menu" aria-label="Chip flavor options">
+        <div class="section-heading">
+          <p class="kicker">Chip bar</p>
+          <h2>Pick your crunch</h2>
+        </div>
+        <div class="chip-grid">
+          <button
+            class="chip-card snack-trigger"
+            type="button"
+            data-title="Classic Sea Salt"
+            data-price="$4"
+            data-desc="Thin, crisp, golden chips with a clean salty snap."
+            data-img="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=700&q=80"
+              alt="Classic crispy potato chips"
+            />
+            <div>
+              <h3>Classic Sea Salt</h3>
+              <p>Thin, crisp, golden chips with a clean salty snap.</p>
+            </div>
+          </button>
+          <button
+            class="chip-card snack-trigger"
+            type="button"
+            data-title="Spicy Lime Tortilla"
+            data-price="$4"
+            data-desc="Corn chips tossed with chili, lime, and a little heat."
+            data-img="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=700&q=80"
+              alt="Tortilla chips with dip"
+            />
+            <div>
+              <h3>Spicy Lime Tortilla</h3>
+              <p>Corn chips tossed with chili, lime, and a little heat.</p>
+            </div>
+          </button>
+          <button
+            class="chip-card snack-trigger"
+            type="button"
+            data-title="Ridged BBQ Crunch"
+            data-price="$4"
+            data-desc="Thick ridges loaded with smoky, sweet BBQ seasoning."
+            data-img="https://images.unsplash.com/photo-1613919113640-25732ec5e61f?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1613919113640-25732ec5e61f?auto=format&fit=crop&w=700&q=80"
+              alt="Crunchy ridged chips"
+            />
+            <div>
+              <h3>Ridged BBQ Crunch</h3>
+              <p>Thick ridges loaded with smoky, sweet BBQ seasoning.</p>
+            </div>
+          </button>
+          <button
+            class="chip-card snack-trigger"
+            type="button"
+            data-title="Cool Ranch Mix"
+            data-price="$4"
+            data-desc="A tangy ranch blend with crunchy snack chips and dip."
+            data-img="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=700&q=80"
+              alt="Colorful snack chips in a bowl"
+            />
+            <div>
+              <h3>Cool Ranch Mix</h3>
+              <p>A tangy ranch blend with crunchy snack chips and dip.</p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="section intro-band" aria-label="Quick highlights">
+        <article>
+          <span>Made Fast</span>
+          <strong>Most orders ready in under 5 minutes.</strong>
+        </article>
+        <article>
+          <span>Kid Friendly</span>
+          <strong>Small bites, share boxes, and sweet treats.</strong>
+        </article>
+        <article>
+          <span>Local Favorite</span>
+          <strong>Open daily for park days and beach walks.</strong>
+        </article>
+      </section>
+
+      <section class="section" id="specials">
+        <div class="section-heading">
+          <p class="kicker">Today’s favorites</p>
+          <h2>Snack shack specials</h2>
+        </div>
+        <div class="special-grid">
+          <button
+            class="special-card snack-trigger"
+            type="button"
+            data-title="Ice Cold Coca-Cola"
+            data-price="$3.50"
+            data-desc="Classic Coca-Cola served chilled with a cup of pebble ice."
+            data-img="https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              class="food-photo"
+              src="https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=900&q=80"
+              alt="Cold glass bottle of cola"
+            />
+            <div>
+              <h3>Ice Cold Coca-Cola</h3>
+              <p>Classic Coca-Cola served chilled with a cup of pebble ice.</p>
+              <strong>$3.50</strong>
+            </div>
+          </button>
+          <button
+            class="special-card snack-trigger"
+            type="button"
+            data-title="Shack Chips Flight"
+            data-price="$6.50"
+            data-desc="Crunchy chips with ranch dust, spicy lime, and smoky BBQ dips."
+            data-img="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              class="food-photo"
+              src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=900&q=80"
+              alt="Bowl of crispy seasoned potato chips"
+            />
+            <div>
+              <h3>Shack Chips Flight</h3>
+              <p>Crunchy chips with ranch dust, spicy lime, and smoky BBQ dips.</p>
+              <strong>$6.50</strong>
+            </div>
+          </button>
+          <button
+            class="special-card snack-trigger"
+            type="button"
+            data-title="Loaded Nacho Tray"
+            data-price="$8.50"
+            data-desc="Warm chips, queso, pico, jalapenos, crema, and scallions."
+            data-img="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              class="food-photo"
+              src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=900&q=80"
+              alt="Loaded nachos with cheese and toppings"
+            />
+            <div>
+              <h3>Loaded Nacho Tray</h3>
+              <p>Warm chips, queso, pico, jalapenos, crema, and scallions.</p>
+              <strong>$8.50</strong>
+            </div>
+          </button>
+          <button
+            class="special-card snack-trigger"
+            type="button"
+            data-title="Fresh Lemonade"
+            data-price="$4.25"
+            data-desc="Classic, strawberry, or mango. Served icy cold."
+            data-img="https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              class="food-photo"
+              src="https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=900&q=80"
+              alt="Cold lemonade with lemon slices"
+            />
+            <div>
+              <h3>Fresh Lemonade</h3>
+              <p>Classic, strawberry, or mango. Served icy cold.</p>
+              <strong>$4.25</strong>
+            </div>
+          </button>
+          <button
+            class="special-card snack-trigger"
+            type="button"
+            data-title="Mini Shack Sundae"
+            data-price="$5.75"
+            data-desc="Vanilla soft serve, chocolate drizzle, sprinkles, and cherry."
+            data-img="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1200&q=80"
+          >
+            <img
+              class="food-photo"
+              src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=80"
+              alt="Ice cream sundae with chocolate and toppings"
+            />
+            <div>
+              <h3>Mini Shack Sundae</h3>
+              <p>Vanilla soft serve, chocolate drizzle, sprinkles, and cherry.</p>
+              <strong>$5.75</strong>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="section menu-section" id="menu">
+        <div class="section-heading">
+          <p class="kicker">Order window menu</p>
+          <h2>Simple snacks, big smiles</h2>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-group">
+            <h3>Salty</h3>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Crispy Basket Fries"
+              data-price="$5"
+              data-desc="Hot basket fries with a salty golden crunch."
+              data-img="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Crispy Basket Fries</span>
+              <strong>$5</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Seasoned Shack Chips"
+              data-price="$4"
+              data-desc="Fresh chips tossed with your favorite flavor dust."
+              data-img="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Seasoned Shack Chips</span>
+              <strong>$4</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Soft Pretzel + Cheese"
+              data-price="$6"
+              data-desc="Warm soft pretzel served with creamy cheese dip."
+              data-img="https://images.unsplash.com/photo-1600628421060-939639517883?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Soft Pretzel + Cheese</span>
+              <strong>$6</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Mozzarella Sticks"
+              data-price="$7"
+              data-desc="Crispy mozzarella sticks with marinara for dipping."
+              data-img="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Mozzarella Sticks</span>
+              <strong>$7</strong>
+            </button>
+          </div>
+
+          <div class="menu-group">
+            <h3>Flavor Dust</h3>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Spicy Lime"
+              data-price="+50¢"
+              data-desc="A bright chili-lime dust for chips or fries."
+              data-img="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Spicy Lime</span>
+              <strong>+50¢</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Smoky BBQ"
+              data-price="+50¢"
+              data-desc="Sweet, smoky BBQ seasoning with a deep savory finish."
+              data-img="https://images.unsplash.com/photo-1613919113640-25732ec5e61f?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Smoky BBQ</span>
+              <strong>+50¢</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Cool Ranch"
+              data-price="+50¢"
+              data-desc="Tangy ranch seasoning for a cool, herby crunch."
+              data-img="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Cool Ranch</span>
+              <strong>+50¢</strong>
+            </button>
+          </div>
+
+          <div class="menu-group">
+            <h3>Sweet & Cold</h3>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Churro Bites"
+              data-price="$5"
+              data-desc="Warm cinnamon sugar churro bites made for sharing."
+              data-img="https://images.unsplash.com/photo-1624371414361-e670edf4898d?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Churro Bites</span>
+              <strong>$5</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Ice Cream Cup"
+              data-price="$4"
+              data-desc="Simple, creamy ice cream in a snack-size cup."
+              data-img="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Ice Cream Cup</span>
+              <strong>$4</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Lemonade"
+              data-price="$4"
+              data-desc="Icy lemonade with a bright citrus finish."
+              data-img="https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Lemonade</span>
+              <strong>$4</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Coca-Cola"
+              data-price="$3.50"
+              data-desc="Classic Coca-Cola served cold."
+              data-img="https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Coca-Cola</span>
+              <strong>$3.50</strong>
+            </button>
+            <button
+              class="menu-item snack-trigger"
+              type="button"
+              data-title="Blue Raspberry Slush"
+              data-price="$5"
+              data-desc="A bright blue frozen slush, sweet and icy."
+              data-img="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=1200&q=80"
+            >
+              <span>Blue Raspberry Slush</span>
+              <strong>$5</strong>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section visit-section" id="visit">
+        <div>
+          <p class="kicker">Come hungry</p>
+          <h2>Find us near the big yellow umbrellas.</h2>
+          <p>
+            120 Boardwalk Lane, Pier Park. Walk-up orders, picnic tables, and
+            easy grab-and-go service all day.
+          </p>
+        </div>
+        <div class="visit-card">
+          <div>
+            <span>Hours</span>
+            <strong>Mon-Sun, 11 AM - 8 PM</strong>
+          </div>
+          <div>
+            <span>Phone</span>
+            <strong>(555) 013-4422</strong>
+          </div>
+          <div>
+            <span>Best Combo</span>
+            <strong>Shack chips + lemonade + churro bites</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Sunny Snack Shack</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <div class="snack-modal" id="snackModal" aria-hidden="true">
+      <div class="snack-modal-backdrop" data-close-modal></div>
+      <section
+        class="snack-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="snackModalTitle"
+      >
+        <button class="modal-close" type="button" data-close-modal aria-label="Close snack photo">
+          Close
+        </button>
+        <img id="snackModalImage" src="" alt="" />
+        <div class="snack-dialog-copy">
+          <p class="kicker">Snack preview</p>
+          <h2 id="snackModalTitle">Snack</h2>
+          <p id="snackModalDesc"></p>
+          <strong id="snackModalPrice"></strong>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
